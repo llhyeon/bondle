@@ -1,6 +1,14 @@
 @import 'tailwindcss';
 
+@layer base {
+  body {
+    /* font-family: var(--font-hi-melody); */
+    font-family: var(--font-cute);
+  }
+}
+
 @theme {
   --color-primary: #0f2854;
   --color-secondary: #bde8f5;
+  --color-tertiary: #fff2c6;
 }

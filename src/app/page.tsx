@@ -1,3 +1,5 @@
+import HomeContainer from '@/app/components/HomeContainer';
+
 export default function Home() {
-  return <h1>text</h1>;
+  return <HomeContainer />;
 }
